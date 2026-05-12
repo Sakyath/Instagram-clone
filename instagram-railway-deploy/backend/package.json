@@ -4,11 +4,24 @@
   "description": "Instagram Clone Backend API",
   "main": "dist/server.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node dist/server.js",
     "build": "echo 'Using pre-compiled dist, skipping tsc'",
     "dev": "ts-node src/server.ts"
   },
   "keywords": ["instagram", "social", "api"],
+=======
+    "dev": "nodemon src/server.ts",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "instagram",
+    "social",
+    "api"
+  ],
+>>>>>>> 602a3b8ba0465325574852ae9b588f8e32efd5a0
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -19,17 +32,26 @@
     "jsonwebtoken": "^9.0.3",
     "multer": "^2.0.2",
     "socket.io": "^4.8.3",
+<<<<<<< HEAD
+=======
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.8.3",
+>>>>>>> 602a3b8ba0465325574852ae9b588f8e32efd5a0
     "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
+<<<<<<< HEAD
     "@types/better-sqlite3": "^7.6.8",
+=======
+>>>>>>> 602a3b8ba0465325574852ae9b588f8e32efd5a0
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.9",
     "@types/multer": "^1.4.12",
     "@types/node": "^22.15.4",
     "@types/uuid": "^10.0.0",
+<<<<<<< HEAD
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
@@ -37,3 +59,10 @@
     "node": ">=18.0.0"
   }
 }
+=======
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  }
+}
+
+>>>>>>> 602a3b8ba0465325574852ae9b588f8e32efd5a0
