@@ -5,10 +5,9 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-  "build": "npx tsc",
+    "build": "npx tsc",
     "start": "node dist/server.js",
-    "clean": "rm -rf dist",
-    "postinstall": "npm run build"
+    "clean": "rm -rf dist"
   },
   "keywords": [
     "instagram",
@@ -27,6 +26,7 @@
     "multer": "^2.0.2",
     "socket.io": "^4.8.3",
     "sqlite3": "^5.1.7",
+    "typescript": "^5.8.3",
     "uuid": "^13.0.0"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
     "@types/node": "^22.15.4",
     "@types/uuid": "^10.0.0",
     "nodemon": "^3.1.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "ts-node": "^10.9.2"
   }
 }
+
