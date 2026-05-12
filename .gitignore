@@ -1,0 +1,7 @@
+node_modules/
+backend/node_modules/
+*.db-shm
+*.db-wal
+.env
+backend/uploads/*
+!backend/uploads/.gitkeep

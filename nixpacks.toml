@@ -8,4 +8,8 @@ cmds = ["cd backend && npm install --omit=dev"]
 cmds = ["echo 'Build skipped - using pre-compiled dist'"]
 
 [start]
+<<<<<<< HEAD
 cmd = "cd backend && node dist/server.js"
+=======
+cmd = "cd backend && node dist/server.js"
+>>>>>>> b51cf3ace4dc6ff1af15bc4e00b58ef58f207c6b
