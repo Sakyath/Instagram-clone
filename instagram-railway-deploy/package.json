@@ -1,8 +1,7 @@
 {
   "name": "instagram-clone",
   "version": "1.0.0",
-<<<<<<< HEAD
-  "description": "Instagram Clone Full Stack App",
+  "private": true,
   "scripts": {
     "start": "cd backend && npm start",
     "install:backend": "cd backend && npm install"
@@ -11,9 +10,3 @@
     "node": ">=18.0.0"
   }
 }
-=======
-  "engines": {
-    "node": ">=18.0.0"
-  }
-}
->>>>>>> 602a3b8ba0465325574852ae9b588f8e32efd5a0

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 web: cd backend && npm install && npm start
-=======
-web: cd backend && npm install && npm start
->>>>>>> 602a3b8ba0465325574852ae9b588f8e32efd5a0
